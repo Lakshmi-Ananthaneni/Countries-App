@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;400;600&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-family: 'Roboto Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #122838;
+  color: white;
+  margin :0rem 8rem 2rem 5rem;
+  /*font-family: montserrat;*/
+ }
+body.light {
+  color:rgb(29, 29, 58) ;
+  background-color:white;
+}
+/*HEADER*/
+.header{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem 2rem 2rem 0rem;
+  }
+  li {
+    margin: 0rem 2rem 2rem 0rem;
+    }
+.logo {
+      color: white;
+       font-size:3rem;
+      font-family: Apple chancery,cursive;
+      border-radius: 50px;
+      margin: -2rem 0rem 0rem 4rem; }
+      .link {
+        background-color:transparent;
+        color:white;
+        font-size: 1.2rem;
+      }
+
+
+/*THEME*/
+
+.dark {
+  background-color: #122838;
+  color:white;
+}
+
+.light {
+  background-color: white;
+  color:#122838;
+}
+
+
+/* INFO*/
+.info{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin :5rem 0rem;
+  
+}
+span {
+  color: red;
+}
+h1 {
+  font-size: 10rem;
+}
+h6{
+  font-size: 1.5rem;
+}
+/*SEARCH*/
+.search {
+  width:100%;
+  padding:10px;
+  margin: 4rem 0rem 2rem 0rem;
+}
+.searchIcon{
+  
+}
+/*TABLE*/
+.table {
+  width : 100%;
+  table-layout :fixed;
+  color: white;
+}
+table .light-mode-text {
+color:black;
+}
+.imgFlag {
+  width: 80px;
+  display: inline-block;
+ }
+.favLink:hover {
+  color:red;
+  text-decoration: none;
+}
+.favLink {
+  outline: none;
+  border-style: none;
+  background-color: transparent;
+  color:white;
+}
+/*FOOTER*/
+.footer
+{
+   padding: 15px 0;
+    color:white;
+    justify-content: center;
+    text-align: center;
+}
+
+/*COUNTRY PAGE*/
+.countryInfo {
+  justify-content: center;
+  text-align: center;
+  margin:5rem 0rem 7rem 0rem;
+  }
+.countryFlag{
+  width:300px;
+}
+.countryDetails {
+  margin: 50px auto;
+  /*border: 1px solid #7f7f7f;*/
+  border-radius: 10px;
+  padding: 0 20px;
+  padding-bottom: 40px;
+}
+/*FAVOURITES*/
+.favInfo{
+  justify-content: center;
+  text-align: center;
+  margin:5rem 0rem 10rem 0rem;
+}
+.favTable{
+  width : 100%;
+  table-layout :fixed;
+  color: white;
+  margin:0rem 0rem 30rem 0rem ;
+}
